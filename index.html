@@ -1,0 +1,89 @@
+<html>
+<head>
+  <title>Tutekonnect.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Barlow:400,700|Rubik:300" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="pane1">
+      <img src="logo-tute-konnect.png" class="logo">
+
+      <div class="content">    
+        <h1>Made For Students,<br/>By Students</h1>
+        <p>
+            TuteKonnect is simple. We connect you to a
+            tutor.<br/> Need that last minute help with your assignment? <br/>
+            We got you covered.
+        </p>
+        <p>
+            You can become a tutor too. 
+            You will be making that 💰💰💰 and sharing your knowledge.
+        </p>
+      </div>
+      <div class="form">
+        <form action="https://formspree.io/scott.nimos@gmail.com" method="POST">
+          <input type="email" name="_replyto" class="input" placeholder="sign@meup.com"><input type="submit" class="submit" value="&rarr;">
+        </form>
+      </div>
+      <footer><p class="footer">️🔥️ enquires@tutekonnect.com</p></footer>
+    </div>
+
+    <div class="pane2">
+      <div class="phone">
+          <div class="inner">
+            <div class="notch"></div>
+                <div class="construction"><h2>We're Under<br/>Construction</h2></div>
+                <p class="code">
+                  #include &lt;stdio.h&gt;<br/>
+                  <br/>
+                      void swap(int *xp, int *yp) <br/>
+                      { <br/>
+                      &nbsp;&nbsp;int temp = *xp; <br/>
+                      &nbsp;&nbsp;*xp = *yp; <br/>
+                      &nbsp;&nbsp;*yp = temp; <br/>
+                      } <br/>
+                      <br/>
+                      void selectionSort(int arr[], int n) <br/>
+                      { <br/>
+                      &nbsp;&nbsp;int i, j, min_idx; <br/>
+                          <br/>
+                      &nbsp;&nbsp;for (i = 0; i < n-1; i++) <br/>
+                      &nbsp;&nbsp;{ <br/>
+                          &nbsp;&nbsp;&nbsp;&nbsp;min_idx = i; <br/>
+                          &nbsp;&nbsp;&nbsp;&nbsp;for (j = i+1; j < n; j++) <br/>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (arr[j] < arr[min_idx]) <br/>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min_idx = j; <br/>
+                                  <br/>
+                          &nbsp;&nbsp;&nbsp;&nbsp;swap(&arr[min_idx], &arr[i]); <br/>
+                      &nbsp;&nbsp;} <br/>
+                      } <br/>
+                        
+                      void printArray(int arr[], int size) <br/>
+                      { <br/>
+                      &nbsp;&nbsp;int i; <br/>
+                      &nbsp;&nbsp;for (i=0; i < size; i++) <br/>
+                      &nbsp;&nbsp;&nbsp;&nbsp;printf("%d ", arr[i]); <br/>
+                      &nbsp;&nbsp;printf("\n"); <br/>
+                      } <br/>
+                      <br/>
+                      int main() <br/>
+                      { <br/>
+                        &nbsp;&nbsp;int arr[] = {64, 25, 12, 22, 11};  <br/>
+                        &nbsp;&nbsp;int n = sizeof(arr)/sizeof(arr[0]);  <br/>
+                        &nbsp;&nbsp;selectionSort(arr, n);  <br/>
+                        &nbsp;&nbsp;printf("Sorted array: \n");  <br/>
+                        &nbsp;&nbsp;printArray(arr, n);  <br/>
+                        &nbsp;&nbsp;return 0;  <br/>
+                      } 
+                </p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
